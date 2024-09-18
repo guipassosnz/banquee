@@ -1,0 +1,10 @@
+{
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true
+    },
+    "[css]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.formatOnSave": true
+    }
+}

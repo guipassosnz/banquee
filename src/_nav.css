@@ -1,0 +1,88 @@
+/* navegation menu */
+.nav {
+    width: 100%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    padding: 24px 0;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1400px;
+    padding: 0 20px;
+    
+}
+
+/* left: logo */
+.nav-left {
+    font-family: "DM Sans";
+    font-weight: bold;
+    font-size: 32px;
+    letter-spacing: -1px;
+    color: var(--green);
+}
+
+/* center: nav itens */
+.nav-center {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.nav-itens {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.nav-itens a {
+    font-family: "Inter";
+    text-decoration: none;
+    color: var(--black);
+    padding: 12px 8px 8px 8px;
+}
+
+/* right: client area */
+.nav-right {
+    display: flex;
+    gap: 32px;
+}
+
+.button-login, .button-open-account {
+    font-family: "DM Sans";
+    font-size: 15px;
+}
+
+.button-login {
+    color: var(--green);
+    background-color: var(--white);
+    border: none;
+}
+
+.button-open-account {
+    color: var(--white);
+    background-color: var(--green);
+    border: none;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px ;
+    cursor: pointer;
+}
+
+/* hover links */
+nav .nav-center li a:hover {
+    background-color: var(--grey);
+    border-radius: 4px;
+    size: 100%;
+}
+
+nav .nav-right .button-open-account:hover {
+    background-color:#438677;
+}
