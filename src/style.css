@@ -363,7 +363,7 @@ line-height: 100%;
 .transactions-right {
     position: relative;
     top: -40px;
-    flex-basis: 80%;
+    width: 400px;
 }
 
 .trans-pay {
@@ -397,15 +397,11 @@ line-height: 100%;
 }
 
 /* section - savings */
-.savings {
-  
-}
-
 .savings-container {
     display:flex;
     width: 1200px;
     padding-top: 160px;
-justify-content: center;
+    justify-content: center;
     align-content: center;
 }
 
