@@ -59,6 +59,7 @@
         font-size: 20px;
         line-height: 120%;
         letter-spacing: -1px;
+        font-weight: 400;
     }
 
     h6 {
@@ -332,6 +333,7 @@ line-height: 100%;
     justify-content: center;
     margin-top: 0px;
     overflow: hidden ;
+
 }
 
 .transactions-left {
@@ -375,7 +377,6 @@ line-height: 100%;
     align-items: center;
     padding: 16px 24px 16px 24px;
     margin-bottom: 16px;
-    margin-left: 50px;
 }
 
 .apple-logo {
@@ -397,12 +398,22 @@ line-height: 100%;
 }
 
 /* section - savings */
+.savings {
+    justify-content: center;
+    display: flex;
+}
+
+.savings-box {
+    width: 1200px;
+}
+
 .savings-container {
     display:flex;
     width: 1200px;
     padding-top: 160px;
     justify-content: center;
     align-content: center;
+    gap:475px;
 }
 
 .savings-text-container {
@@ -411,8 +422,6 @@ line-height: 100%;
 
 .savings-left {
     align-content: flex-end;
-   margin-left: 400px;
-
 }
 
 .button-all-features {
@@ -426,4 +435,101 @@ line-height: 100%;
 
 .button-all-features h6 {
     line-height: 100%;
+}
+
+/* color-boxes */
+.grid-expenses {
+    width: 1200px;
+    margin-top: 64px;
+    display: flex;
+    gap: 33px;
+}
+
+.grid-color-box {
+    align-items: left;
+}
+
+.grid-color-box p {
+    color: #1A191E;
+    opacity: 50%;
+}
+
+.color-box-1 {
+    width: 214px;
+    height: 214px;
+    border-radius: 16px;
+    background-color: #E8F2EE;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.laptop {
+    height: 64px;
+    width: 64px;
+}
+
+.color-box-2 {
+    width: 214px;
+    height: 214px;
+    border-radius: 16px;
+    background-color: #F1DFDF;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.bike {
+    height: 72px;
+    width: 72px;
+}
+
+.color-box-3 {
+    width: 214px;
+    height: 214px;
+    border-radius: 16px;
+    background-color: #DFE1F1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.plane {
+    height: 56px;
+    width: 56px;
+}
+
+.color-box-4 {
+    width: 214px;
+    height: 214px;
+    border-radius: 16px;
+    background-color: #DFEBF1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.camera {
+    height: 54px;
+    width: 54px;
+}
+
+.color-box-5 {
+    width: 214px;
+    height: 214px;
+    border-radius: 16px;
+    background-color: #F8F8F8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.plus {
+    height: 40px;
+    width: 40px;
 }
