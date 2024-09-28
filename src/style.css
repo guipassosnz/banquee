@@ -623,3 +623,75 @@
         line-height: 160%;
         margin-top: 4px;
    }
+
+/* section - tools */
+   .tools {
+        padding: 160px 0px;
+        justify-content: center;
+   }
+
+   .tools-box {
+        display: initial;
+        max-width: 1200px;
+   }
+
+   .logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+
+   }
+
+   .logos-top {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 16px;
+   }
+
+   .logos-bottom {
+        display: flex;
+        gap: 16px;
+        margin-bottom: 64px;
+        max-width: 1200px;
+   }
+
+   .logo-item {
+        height: 60px;
+        background-color: var(--grey);
+        padding: 16px;
+        border-radius: 10px;
+   }
+
+   .tools-bottom {
+        display:flex;
+        gap:213px;
+        justify-content: center;
+   }
+   
+   .tools-left {
+        width: 538.65px;
+        justify-content: flex-start;
+    }
+
+    .tools-right {
+        align-content: flex-end;
+    }
+
+    .tools-check-box {
+        margin-top: 32px;
+        max-width: 345px;
+        margin-right: 153.5px;
+    }
+
+    .tools-checklist {
+        display: flex;
+        gap: 16px;
+        margin-top: 12px;
+    }
+
+    .tools-checkmark-icon {
+        size: 40px;
+    }
