@@ -71,7 +71,7 @@
 
     p {
         font-family: "Inter";
-        font-size: "24px";
+        font-size: 14px;
         line-height: 170%;
     }
 
@@ -313,6 +313,9 @@
         margin-bottom: 8px;
     }
 
+    .inter-16px {
+        font-size: 16px;
+    }
 
     .info-card img {
         width: 50px;
@@ -636,13 +639,12 @@
    }
 
    .logos {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
    }
 
    .logos-top {
@@ -667,7 +669,7 @@
 
    .tools-bottom {
         display:flex;
-        gap:213px;
+        gap:186px;
         justify-content: center;
    }
    
@@ -690,16 +692,22 @@
         display: flex;
         gap: 16px;
         margin-top: 12px;
+        align-items: center;
     }
 
     .tools-checkmark-icon {
-        size: 40px;
+        width: 40px;
+    }
+
+    .tools-text-inter-18px {
+        font-family: "Inter";
+        font-size: 18px;
     }
 
 /* section - cards */
 
     .sec-cards {
-     justify-content: center;   
+        justify-content: center;   
     }
     
     .cards-box {
@@ -768,3 +776,90 @@
     .cards-button-white:hover {
         background-color: var(--grey);
     }
+
+/* section - testimonials */
+    .testimonials-top {
+            display: flex;
+            justify-content: center;
+            margin-top: 160px;
+            margin-bottom: 64px ;
+        }
+
+    .testimonials-box-left {
+        width: 829px;
+    }
+
+    .test-margin {
+        margin-bottom: 16px;
+    }
+
+    .testimonials-box-right {
+        align-content: flex-end;
+        width: 355px;
+    }
+
+    .box-itens {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 16px;
+    }
+
+    .rated.icon {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+    }
+
+    .test-text {
+        font-family: "Inter";
+        font-size: 18px;
+        line-height: 180%;
+        height: 32px;
+    }
+
+        .txt-green-color {
+            color: var(--green);
+            margin-right: 5px;
+        }
+
+        /* testimonial - cards */
+        
+        .testimonials-bottom {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+        }
+
+        .test-cards {
+            width: 378.67px;
+            padding: 32px;
+            border: 2px solid var(--grey-border);
+            border-radius: 10px;
+            margin-bottom: 32px ;
+        }
+
+        .rating-title {
+            font-family: "DM Sans";
+            font-size: 28px;
+            line-height: 120%;
+            letter-spacing: -0.5px;
+            margin-top: 8px;
+            margin-bottom: 16px;
+        }
+
+        .rating-text {
+            font-family: "Inter";
+            font-size: 16px;
+            line-height: 160%;
+            font-weight: 400;
+            margin-bottom: 24px;
+        }
+
+        .position {
+            font-family: "Inter";
+            font-size: 14px;
+        
+            color: var(--black);
+            opacity: 50%;
+        }
