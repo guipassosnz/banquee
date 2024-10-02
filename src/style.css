@@ -863,3 +863,70 @@
             color: var(--black);
             opacity: 50%;
         }
+
+/* section - green */
+    .section-cta {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 160px;
+    }
+
+    .green {
+        display: flex;
+        background-color: var(--green);
+        border-radius: 20px;
+        width: 1200px;
+        height: 610px;
+        padding: 96px 76px;
+        padding-bottom: 0px;
+        gap:138px
+
+    }
+
+    .green-left {
+        width: 524px;
+    }
+
+    .h3-text-white {
+        color: white;
+    }
+
+    .text-white {
+        color: white;
+        font-family: "Inter";
+        font-size: 18px;
+        line-height: 180%;
+    }
+
+    .green-check-box{
+        display: flex;
+        margin-top: 32px;
+        gap: 64px;
+    }
+
+    .green-checklist {
+        display: flex;
+        gap:16px;
+        margin-bottom: 16px;
+        align-items: center;
+    }
+
+    .check-text-white {
+        font-family: "Inter";
+        font-size: 16px;
+        line-height: 160%;
+        font-weight: 300;
+        color: var(--white);
+     }
+
+     .app-stores {
+        display: flex;
+        gap: 16px;
+        margin-top: 48px;
+     }
+
+     .green-right {
+        position: relative;
+        overflow: hidden;
+     }
