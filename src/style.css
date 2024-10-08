@@ -183,7 +183,6 @@
     }
 
     .grid-start p {
-        font-family: "Inter";
         font-size: 24px;
         line-height: 170%;
         padding-bottom: 32px;
@@ -930,3 +929,78 @@
         position: relative;
         overflow: hidden;
      }
+
+/* need help section */
+
+    .need-help {
+        display: flex;
+        justify-content: center;
+        padding: 160px 0px;
+    }
+
+    .nh-left {
+        width: 600px;
+    }
+
+    .nh-left h3 {
+        margin-bottom: 48px ;
+    }
+
+    .nh-contact-box {
+        display: flex;
+        gap: 24px;
+        margin-bottom: 32px;
+    }
+
+    .nh-contact-box p {
+        color: var(--black);
+        opacity: 50%;
+    }
+
+    .button-support {
+        color: var(--green);
+        background-color: var(--white);
+        border: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 16px;
+    }
+
+    .space-8px {
+        width: 8px;
+    }
+
+    .button-support h6 {
+        line-height: 100%;
+    }
+
+    .nh-right {
+        width: 600px;
+    }
+
+    .nh-right p {
+        color: #1A191E;
+        opacity: 50%;
+        font-size: 16px;
+        line-height: 160%;
+        margin-top: 16px;
+        max-width: 95%;
+    }
+
+    .nh-grid {
+        display: flex;
+    }
+
+    .nh-grid h5 {
+        flex: 1;
+    }
+
+    .nh-grey-line {
+        color: var(--grey-border);
+        border: none;
+        border-top: 1px solid;
+        margin-top: 32px;
+        margin-bottom: 32px;
+
+    }
