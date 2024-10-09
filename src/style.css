@@ -1004,3 +1004,61 @@
         margin-bottom: 32px;
 
     }
+
+    /* blog section */
+
+    .blog {
+        display: grid;
+        justify-content: center;
+        padding: 160px 0px;
+    }
+
+    .blog-top {
+        display: flex;
+        gap: 546px;
+        margin-bottom: 64px;
+    }
+
+    .blog-top h3 {
+        width: 540px;
+    }
+
+    .blog-bottom {
+        display: flex;
+        gap: 33px;
+    }
+    .blog-card {
+        width: 378px;
+    }
+
+    .blog-card-img {
+        width: 378px;
+        height: 378px;
+        border-radius: 16px;
+        margin-bottom: 24px;
+    }
+
+    .blog-card h5 {
+        font-size: 28px;
+    }
+
+    .blog-card p {
+        font-size: 16px;
+        line-height: 160%;
+    }
+
+    .grey-button-box {
+        display: flex;
+        gap: 8px;
+    }
+
+    .grey-button {
+        margin-top: 24px;
+        background-color: var(--grey);
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-family: "Inter";
+        font-size: 13px;
+        line-height: 180%;
+        border: none;
+    }
