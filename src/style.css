@@ -1134,3 +1134,59 @@
         color:  var(--black);
         opacity: 50%;
     }
+
+
+/* Blog - Page */
+/* Navegation Bar */
+
+    .blog-nav-left {
+        font-family: "DM Sans";
+        font-weight: bold;
+        font-size: 32px;
+        letter-spacing: -1px;
+        color: var(--green);
+        text-decoration: none;
+    }
+
+    .blog2 {
+        display: grid;
+        padding: 0px;
+        justify-content: center;
+    }
+
+    .blog-top2 {
+        padding: 96px 0px;
+        text-align: center;
+    }
+
+    .blog-container {
+        margin-bottom: 160px;
+    }
+
+    .blog-bottom2 {
+        display: flex;
+        gap: 33px;
+        margin-bottom: 64px;
+    }
+
+    .blog-filters {
+        display: flex;
+        gap: 32px;
+        align-items: center;
+        margin-bottom: 64px;
+    }
+
+    .blog-filters h6 {
+        line-height: 100%;
+    }
+
+    .grey-button2 {
+        margin-top:  0px;
+        background-color: var(--grey);
+        padding: 4px 10px;
+        border-radius: 4px;
+        font-family: "Inter";
+        font-size: 13px;
+        line-height: 180%;
+        border: none;
+    }
